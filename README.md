@@ -11,13 +11,18 @@ This repository contains the official implementation of GAANet for audio-visual 
 - See `requirements.txt` for full dependencies
 ```bash
 pip install -r requirements.txt
-
+```
 ## Train
 ```bash
-python train.py --conf_dir configs/LRS2-GAANet.yml
-python train.py --conf_dir configs/Vox2-GAANet.yml
-
+python train_avnet.py --conf_dir configs/LRS2-GAANet.yml
+python train_avnet.py --conf_dir configs/Vox2-GAANet.yml
+```
 ## Test
 ```bash
-python test.py --conf_dir Experiments/checkpoint/LRS2-GAANet/conf.yml
-python test.py --conf_dir Experiments/checkpoint/Vox2-GAANet/conf.yml
+python evl_testset.py --conf_dir Experiments/checkpoint/LRS2-GAANet/conf.yml
+python evl_testset.py --conf_dir Experiments/checkpoint/Vox2-GAANet/conf.yml
+```
+### Inference
+```bash
+python evl_single.py
+```
