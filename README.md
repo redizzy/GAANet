@@ -1,4 +1,4 @@
-# GAANet: Audio-Visual Speech Separation
+# GAANet: Global-guided Asymmetric Attention Network for Audio-Visual Speech Separation
 
 ## Overview
 This repository contains the official implementation of GAANet for audio-visual speech separation. The code is submitted for double-blind review.
