@@ -26,3 +26,16 @@ python evl_testset.py --conf_dir Experiments/checkpoint/Vox2-GAANet/conf.yml
 ```bash
 python evl_single.py
 ```
+
+## 📦 Pretrained Models
+
+We provide final trained models for evaluation and research purposes:
+
+- **Final model trained on LRS2 dataset**  
+  [Download LRS2 Final Model](https://1drv.ms/u/c/bcda40cf29d447bf/IQBFCn_HJdkaS4mW-BnyOCbSAT31utZLUlOA5xPY-BC3VUs?e=VMuwFj)
+
+- **Final pretrained model**  
+  [Download Pretrained Model](https://1drv.ms/u/c/bcda40cf29d447bf/IQDmAMGVENvUR4QZzIpApWEjAfnc4mvUzLFBERO3r2eoiJs?e=gn0kSO)
+
+> **Note:** These models correspond to fully trained networks and can be directly used for inference and evaluation.
+
